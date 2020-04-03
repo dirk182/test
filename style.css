@@ -1,0 +1,231 @@
+body {
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+body.depression {
+  background-image: url("bg.png");
+  background-size: cover;
+  background-position: center; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+  background: #FFFFFF;
+  border: none;
+  padding: 4px 0;
+  text-align: center; 
+  width: 500px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  behavior: url(/pie/PIE.htc);
+  padding: 6px;
+}
+
+table.form {
+  width: 500px;
+  text-align: left;
+  color: #262525;
+}
+
+img.compaq {
+  width: 250px;
+    -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+h1 {
+  font: 20pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+}
+
+h1.center {
+  text-align: center;
+  font: 20pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20pt;
+}
+
+h2 {
+  font: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0));
+}
+
+hr.nav {
+  display: block;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-indent: 20px;
+}
+
+a:link, a:visited {
+  color: #012196;
+}
+
+a:hover, a:active {
+  color: #1780c5;
+}
+
+div.header {
+  text-align: center;
+  margin-top:0px;
+  padding-top:0px;
+}
+
+div.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+sup {
+  font-size: 11px;
+}
+
+img.depression {
+  display: block;
+  margin: auto;
+}
+
+img.turkey {
+  display: block;
+  margin: auto;
+  height: 280px;
+}
+
+table.turkey {
+  width: 30%;
+  border: 1px solid #000;
+  text-align: center;
+  color: #262525;
+}
+
+
+tr.submit {
+  margin: auto;
+  text-align: center;
+}
+
+table.turkey tr:nth-child(even) {
+  background-color: #939393;
+}
+table.turkey tr:nth-child(odd) {
+  background-color: #c9c9c9;
+}
+
+table.turkey th {
+  font-weight: bold;
+}
+
+table.turkey td,th {
+  padding: 4px 5px;
+}
+
+table.turkey td {
+  border: 1px solid #000;
+}
+
+
+
+.ulnav {
+  list-style-type: none;
+  margin-left: 5px;
+  padding: 0;
+  overflow: hidden;
+  display:inline;
+}
+
+.linav {
+    float: left;
+}
+
+.linav a {
+  color: #000;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+.linav a:hover {
+  background-color: #348776;
+}
+
+.linav:last-child {
+  border-right: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#wrapper {
+ width: 960px;
+}
+
+#main {
+ float: left;
+ width: 650px;
+ margin: 0 20px;
+}
+
+#extras {
+ float: left;
+ width: 250px;
+ margin: 0 20px 0 0;
+ padding-top: 20px;
+}
+
+#footer {
+ clear: left;
+ background-color: #a3abb7;
+} 
+
+#header {
+ clear: left;
+ background-color: #a3abb7;
+ padding: 10px;
+} 
+
+address { 
+    display: block;
+    font-style: italic;
+}
